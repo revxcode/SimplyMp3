@@ -1,0 +1,14 @@
+{
+  "name": "workspaces",
+  "private": true,
+  "module": "index.ts",
+  "type": "module",
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "./run.sh",
+    "clean": "rm -rf node_modules bun.lockb"
+  }
+}
